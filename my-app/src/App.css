@@ -1,0 +1,124 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+
+  .display-noti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  
+  .received-noti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .add-noti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .created-noti{
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+
+  .noti{
+    width: 70%;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: #edafb8;
+    font-size: 1.5em;
+    font-weight: 600;
+    position: relative;
+    animation-name: notification;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes notification{
+    0% {box-shadow: 0 4px 8px 0 rgba(104, 104, 104, 0.1), 0 6px 20px 0 rgba(104, 104, 104, 0.1);}
+    50% {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.280), 0 6px 20px 0 rgba(0, 0, 0, 0.280);}
+    100% {box-shadow: 0 4px 8px 0 rgba(104, 104, 104, 0.1), 0 6px 20px 0 rgba(104, 104, 104, 0.1);}
+  }
+
+
+  select{
+    width: 70%;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+  }
+
+  button{
+    width: 70%;
+    height: 50px;
+    text-align: center;
+    background-color: #aec5eb;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background-color: #80a0d3;
+  }
+
+  input{
+    width: 70%;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+  }
+
+  .btns{
+    display: flex;
+    justify-content: center;
+  }
+
+  .inputs{
+    display: flex;
+    justify-content: center;
+  }
+
+  h1{
+    text-align: center;
+    color: #3a405a;
+  }
+
+  h2{
+    color: #c8c5bb;
+  }
+
+  .text{
+    color: #3a405a;;
+  }
